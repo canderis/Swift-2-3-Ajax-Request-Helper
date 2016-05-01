@@ -3,6 +3,9 @@ A working Ajax Request helper file for swift
 
 
 Usage:
+
+```swift
+
 ajaxRequest(
   [
       "one": "hi",
@@ -22,3 +25,4 @@ ajaxRequest(
       self.serverOutput.text = "errorString = \(error)"
   }
 )
+```
