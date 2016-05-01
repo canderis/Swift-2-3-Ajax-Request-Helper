@@ -15,12 +15,12 @@ ajaxRequest(
       "four": "blah"
   ],
   url: "http://somesite.com/connection.php", // URL to php functions
-  success: { (response) -> () in
+  success: { (response) in
       //code for success
       print(response)
       self.serverOutput.text = "\(response["data"])"
   },
-  failure:{ (error) -> () in
+  failure:{ (error) in
       //code for failure
       self.serverOutput.text = "errorString = \(error)"
   }
