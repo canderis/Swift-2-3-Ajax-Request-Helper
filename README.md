@@ -12,8 +12,7 @@ ajaxRequest(
       "one": "hi",
       "two": "2",
       "three": "testing",
-      "four": "blah",
-  
+      "four": "blah"
   ],
   url: "http://somesite.com/connection.php", // URL to php functions
   success: { (response) -> () in
