@@ -18,11 +18,10 @@ ajaxRequest(
   success: { (response) in
       //code for success
       print(response)
-      self.serverOutput.text = "\(response["data"])"
   },
   failure:{ (error) in
       //code for failure
-      self.serverOutput.text = "errorString = \(error)"
+      print(error)
   }
 )
 ```
