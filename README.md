@@ -1,5 +1,5 @@
-# Swift Ajax Request
-A working Ajax Request helper file for swift
+# Swift "Ajax" Request
+A working "Ajax" Request helper file for swift
 
 Credits to [Rob](http://stackoverflow.com/questions/28008874/post-with-swift-and-api) on stack overflow for assistance.
 
